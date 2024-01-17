@@ -1,19 +1,28 @@
+import java.util.*;
+
 public class Main {
-    public static void main(String[] args){
-        int[] arr = {1,2,3,4,5,6,7,8,9,10};
-        int max = arr[0];
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]>max){
-                max = arr[i];
+    public static void main(String[] args) {
+        int a[] = new int[5];
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter 5 values for the array:");
+        for (int i = 0; i < 5; i++) {
+            a[i] = sc.nextInt();
+        }
+        
+        int max = a[0]; 
+        int min = a[0];
+        
+        for (int i = 0; i < 5; i++) {
+            if (max < a[i]) {
+                max = a[i];
+            }
+            if (min > a[i]) {
+                min = a[i];
             }
         }
-        int min = arr[0];
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]<min){
-                min = arr[i];
-            }
-        }
-        System.out.println("Maximum value is: "+max);
-        System.out.println("Minimum value is: "+min);
+        
+        System.out.println("Maximum value of the array is: " + max);
+        System.out.println("Minimum value of the array is: " + min);
     }
 }
