@@ -11,3 +11,8 @@ public class CLA {
         }
     }
 }
+
+
+//javac CLA.java
+//java CLA 10 20
+//b is bigger
