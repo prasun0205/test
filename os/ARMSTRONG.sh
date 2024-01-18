@@ -1,6 +1,5 @@
 #CHECK A NUMBER IS AMSTRONG OR NOT
-echo "Enter a number"
-read num
+num=153
 rem=0
 sum=0
 temp=$num
