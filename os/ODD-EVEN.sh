@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo -n "Enter a number: "
-read number
+number=4
 
 is_odd_or_even() {
   local num=$1
