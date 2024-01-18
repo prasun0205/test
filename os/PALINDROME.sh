@@ -14,3 +14,6 @@ then
 else
     echo "Number is not palindrome"
 fi
+
+
+https://www.mycompiler.io/new/bash
