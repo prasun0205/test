@@ -1,6 +1,5 @@
 #COMPUTE FACTORIAL OF A NUMBER
-echo "Enter a number"
-read num
+num=4
 fact=1
 while [ $num -gt 1 ]
 do
