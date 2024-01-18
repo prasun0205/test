@@ -1,5 +1,5 @@
 #DETECT NUMBER,VOWEL AND CONSONANT FROM A STRING
-read -p "Enter a string: " str
+str="HARAJIT05"
 num=0
 vow=0
 con=0
