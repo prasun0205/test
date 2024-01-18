@@ -1,5 +1,5 @@
 #CHECK A NUMBER IS PALINDROME OR NOT
-read -p "Enter a number: " num
+num=454
 temp=$num
 rev=0
 while [ $num -gt 0 ]
