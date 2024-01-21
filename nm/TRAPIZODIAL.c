@@ -26,6 +26,7 @@ float f(float x)
 
  //OUTPUT
  
-Value of a,b,n 1 10 30
-
- Result=51.809948
+Value of a,b,n 1
+3
+10
+Result=5.101562
